@@ -2,6 +2,8 @@
 
 A browser workout planner with routine editing, workout history, exercise search, and 3D movement demonstrations. The application connects completed sets to muscle-group summaries and keeps workout records in browser storage.
 
+[Engineering notes](ENGINEERING.md) explain the mechanisms and tradeoffs. When does a planned set become a durable workout, and what can muscle summaries actually infer from it?
+
 [Product portfolio](https://github.com/hxssank/recruiter-portfolio)
 
 ## What is implemented
