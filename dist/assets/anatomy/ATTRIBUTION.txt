@@ -1,0 +1,14 @@
+BodyParts3D - The Database Center for Life Science - CC-BY-SA 2.1 Japan
+Z-Anatomy - The open source atlas of anatomy - CC-BY-SA 4.0
+
+Adaptation: Cant Pin Me anatomical exercise model.
+Muscle and skeletal subset, geometry decimation, grouped minor structures, neutral materials, and a simplified joint rig with manually defined skin weights. Original anatomical geometry retained. Exercise animation is illustrative; tissue deformation is not a biomechanical simulation.
+
+This adapted model is distributed under CC BY-SA 4.0:
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Original BodyParts3D license:
+https://creativecommons.org/licenses/by-sa/2.1/jp/
+
+No endorsement by the original authors is implied.
+See sources.json for the source files and their hashes.

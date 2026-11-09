@@ -1,0 +1,5075 @@
+{
+  "coordinateSystem": "right-handed, metres, +Y up, +Z anterior, +X anatomical left",
+  "heightMeters": 1.7,
+  "bones": [
+    {
+      "name": "hips",
+      "canonicalName": "hips",
+      "parent": null,
+      "head": [
+        0,
+        0.87,
+        -0.027
+      ],
+      "tail": [
+        0,
+        0.97,
+        -0.03
+      ]
+    },
+    {
+      "name": "spine",
+      "canonicalName": "spine",
+      "parent": "hips",
+      "head": [
+        0,
+        0.97,
+        -0.03
+      ],
+      "tail": [
+        0,
+        1.22,
+        -0.03
+      ]
+    },
+    {
+      "name": "chest",
+      "canonicalName": "chest",
+      "parent": "spine",
+      "head": [
+        0,
+        1.22,
+        -0.03
+      ],
+      "tail": [
+        0,
+        1.43,
+        -0.033
+      ]
+    },
+    {
+      "name": "neck",
+      "canonicalName": "neck",
+      "parent": "chest",
+      "head": [
+        0,
+        1.43,
+        -0.033
+      ],
+      "tail": [
+        0,
+        1.53,
+        -0.017
+      ]
+    },
+    {
+      "name": "head",
+      "canonicalName": "head",
+      "parent": "neck",
+      "head": [
+        0,
+        1.53,
+        -0.017
+      ],
+      "tail": [
+        0,
+        1.65,
+        -0.017
+      ]
+    },
+    {
+      "name": "clavicle_L",
+      "canonicalName": "clavicle.L",
+      "parent": "chest",
+      "head": [
+        0.01,
+        1.41,
+        -0.033
+      ],
+      "tail": [
+        0.1646,
+        1.3898,
+        -0.0223
+      ]
+    },
+    {
+      "name": "upper_arm_L",
+      "canonicalName": "upper_arm.L",
+      "parent": "clavicle_L",
+      "head": [
+        0.1646,
+        1.3898,
+        -0.0223
+      ],
+      "tail": [
+        0.2167,
+        1.1011,
+        -0.032
+      ]
+    },
+    {
+      "name": "forearm_L",
+      "canonicalName": "forearm.L",
+      "parent": "upper_arm_L",
+      "head": [
+        0.2167,
+        1.1011,
+        -0.032
+      ],
+      "tail": [
+        0.2618,
+        0.8632,
+        0.0151
+      ]
+    },
+    {
+      "name": "hand_L",
+      "canonicalName": "hand.L",
+      "parent": "forearm_L",
+      "head": [
+        0.2618,
+        0.8632,
+        0.0151
+      ],
+      "tail": [
+        0.274,
+        0.745,
+        0.028
+      ]
+    },
+    {
+      "name": "thigh_L",
+      "canonicalName": "thigh.L",
+      "parent": "hips",
+      "head": [
+        0.0831,
+        0.8614,
+        -0.0044
+      ],
+      "tail": [
+        0.0811,
+        0.445,
+        -0.02
+      ]
+    },
+    {
+      "name": "shin_L",
+      "canonicalName": "shin.L",
+      "parent": "thigh_L",
+      "head": [
+        0.0811,
+        0.445,
+        -0.02
+      ],
+      "tail": [
+        0.0811,
+        0.0766,
+        0.0233
+      ]
+    },
+    {
+      "name": "foot_L",
+      "canonicalName": "foot.L",
+      "parent": "shin_L",
+      "head": [
+        0.0811,
+        0.0766,
+        0.0233
+      ],
+      "tail": [
+        0.0811,
+        0.03,
+        0.15
+      ]
+    },
+    {
+      "name": "clavicle_R",
+      "canonicalName": "clavicle.R",
+      "parent": "chest",
+      "head": [
+        -0.01,
+        1.41,
+        -0.033
+      ],
+      "tail": [
+        -0.1646,
+        1.3898,
+        -0.0223
+      ]
+    },
+    {
+      "name": "upper_arm_R",
+      "canonicalName": "upper_arm.R",
+      "parent": "clavicle_R",
+      "head": [
+        -0.1646,
+        1.3898,
+        -0.0223
+      ],
+      "tail": [
+        -0.2167,
+        1.1011,
+        -0.032
+      ]
+    },
+    {
+      "name": "forearm_R",
+      "canonicalName": "forearm.R",
+      "parent": "upper_arm_R",
+      "head": [
+        -0.2167,
+        1.1011,
+        -0.032
+      ],
+      "tail": [
+        -0.2618,
+        0.8632,
+        0.0151
+      ]
+    },
+    {
+      "name": "hand_R",
+      "canonicalName": "hand.R",
+      "parent": "forearm_R",
+      "head": [
+        -0.2618,
+        0.8632,
+        0.0151
+      ],
+      "tail": [
+        -0.274,
+        0.745,
+        0.028
+      ]
+    },
+    {
+      "name": "thigh_R",
+      "canonicalName": "thigh.R",
+      "parent": "hips",
+      "head": [
+        -0.0831,
+        0.8614,
+        -0.0044
+      ],
+      "tail": [
+        -0.0811,
+        0.445,
+        -0.02
+      ]
+    },
+    {
+      "name": "shin_R",
+      "canonicalName": "shin.R",
+      "parent": "thigh_R",
+      "head": [
+        -0.0811,
+        0.445,
+        -0.02
+      ],
+      "tail": [
+        -0.0811,
+        0.0766,
+        0.0233
+      ]
+    },
+    {
+      "name": "foot_R",
+      "canonicalName": "foot.R",
+      "parent": "shin_R",
+      "head": [
+        -0.0811,
+        0.0766,
+        0.0233
+      ],
+      "tail": [
+        -0.0811,
+        0.03,
+        0.15
+      ]
+    }
+  ],
+  "limitations": "Source anatomical geometry is static. Skin weights and exercise poses are approximations, not a validated musculoskeletal simulation or measured muscle strain.",
+  "picking": {
+    "property": "mesh.userData.faceRanges",
+    "index": "THREE.Raycaster intersection.faceIndex, zero based triangles",
+    "range": "start <= faceIndex < start + count"
+  },
+  "meshCount": 124,
+  "triangles": 434002,
+  "sourceParts": [
+    {
+      "name": "(Abdominal part of pectoralis major muscle).l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "(Abdominal part of pectoralis major muscle).l",
+      "triangles": 1508
+    },
+    {
+      "name": "(Abdominal part of pectoralis major muscle).r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "(Abdominal part of pectoralis major muscle).r",
+      "triangles": 1508
+    },
+    {
+      "name": "(Adductor minimus).l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_thigh_L",
+      "triangles": 550
+    },
+    {
+      "name": "(Adductor minimus).r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_thigh_R",
+      "triangles": 550
+    },
+    {
+      "name": "(Opponens digiti minimi muscle of foot).l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_foot_L",
+      "triangles": 236
+    },
+    {
+      "name": "(Opponens digiti minimi muscle of foot).r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_foot_R",
+      "triangles": 236
+    },
+    {
+      "name": "Abductor digiti minimi of foot.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_foot_L",
+      "triangles": 550
+    },
+    {
+      "name": "Abductor digiti minimi of foot.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_foot_R",
+      "triangles": 550
+    },
+    {
+      "name": "Abductor digiti minimi of hand.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_hand_L",
+      "triangles": 550
+    },
+    {
+      "name": "Abductor digiti minimi of hand.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_hand_R",
+      "triangles": 550
+    },
+    {
+      "name": "Abductor hallucis.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_foot_L",
+      "triangles": 550
+    },
+    {
+      "name": "Abductor hallucis.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_foot_R",
+      "triangles": 550
+    },
+    {
+      "name": "Abductor pollicis brevis.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_hand_L",
+      "triangles": 550
+    },
+    {
+      "name": "Abductor pollicis brevis.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_hand_R",
+      "triangles": 550
+    },
+    {
+      "name": "Abductor pollicis longus.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 550
+    },
+    {
+      "name": "Abductor pollicis longus.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 550
+    },
+    {
+      "name": "Acromial part of deltoid muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Acromial part of deltoid muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Acromial part of deltoid muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Acromial part of deltoid muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Adductor brevis.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_thigh_L",
+      "triangles": 550
+    },
+    {
+      "name": "Adductor brevis.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_thigh_R",
+      "triangles": 550
+    },
+    {
+      "name": "Adductor longus.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Adductor longus.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Adductor longus.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Adductor longus.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Adductor magnus.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Adductor magnus.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Adductor magnus.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Adductor magnus.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Anconeus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 550
+    },
+    {
+      "name": "Anconeus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 550
+    },
+    {
+      "name": "Anterior belly of digastric muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 392
+    },
+    {
+      "name": "Anterior belly of digastric muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 392
+    },
+    {
+      "name": "Ascending part of trapezius muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Ascending part of trapezius muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Ascending part of trapezius muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Ascending part of trapezius muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Atlas (C1)",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_head",
+      "triangles": 460
+    },
+    {
+      "name": "Axis (C2)",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_head",
+      "triangles": 468
+    },
+    {
+      "name": "Body of sternum",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Brachialis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Brachialis muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Brachialis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Brachialis muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Brachioradialis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Brachioradialis muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Brachioradialis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Brachioradialis muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Bucinator.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Bucinator.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Calcaneus.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 454
+    },
+    {
+      "name": "Calcaneus.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 454
+    },
+    {
+      "name": "Capitate bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 450
+    },
+    {
+      "name": "Capitate bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 450
+    },
+    {
+      "name": "Clavicle.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_clavicle_L",
+      "triangles": 450
+    },
+    {
+      "name": "Clavicle.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_clavicle_R",
+      "triangles": 450
+    },
+    {
+      "name": "Clavicular head of pectoralis major muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Clavicular head of pectoralis major muscle.l",
+      "triangles": 850
+    },
+    {
+      "name": "Clavicular head of pectoralis major muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Clavicular head of pectoralis major muscle.r",
+      "triangles": 850
+    },
+    {
+      "name": "Clavicular part of deltoid muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Clavicular part of deltoid muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Clavicular part of deltoid muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Clavicular part of deltoid muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Coccygeus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_thigh_L",
+      "triangles": 550
+    },
+    {
+      "name": "Coccygeus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_thigh_R",
+      "triangles": 550
+    },
+    {
+      "name": "Coccyx",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_hips",
+      "triangles": 492
+    },
+    {
+      "name": "Coracobrachialis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Coracobrachialis muscle.l",
+      "triangles": 1160
+    },
+    {
+      "name": "Coracobrachialis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Coracobrachialis muscle.r",
+      "triangles": 1160
+    },
+    {
+      "name": "Corniculate cartilage.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_neck",
+      "triangles": 136
+    },
+    {
+      "name": "Corniculate cartilage.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_neck",
+      "triangles": 136
+    },
+    {
+      "name": "Corrugator supercilii.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 278
+    },
+    {
+      "name": "Corrugator supercilii.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 278
+    },
+    {
+      "name": "Costal cartilage of eighth rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_spine",
+      "triangles": 899
+    },
+    {
+      "name": "Costal cartilage of eighth rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_spine",
+      "triangles": 899
+    },
+    {
+      "name": "Costal cartilage of fifth rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_chest",
+      "triangles": 900
+    },
+    {
+      "name": "Costal cartilage of fifth rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_chest",
+      "triangles": 900
+    },
+    {
+      "name": "Costal cartilage of first rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_chest",
+      "triangles": 900
+    },
+    {
+      "name": "Costal cartilage of first rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_chest",
+      "triangles": 900
+    },
+    {
+      "name": "Costal cartilage of fourth rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_chest",
+      "triangles": 900
+    },
+    {
+      "name": "Costal cartilage of fourth rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_chest",
+      "triangles": 900
+    },
+    {
+      "name": "Costal cartilage of ninth rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_spine",
+      "triangles": 900
+    },
+    {
+      "name": "Costal cartilage of ninth rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_spine",
+      "triangles": 900
+    },
+    {
+      "name": "Costal cartilage of second rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_chest",
+      "triangles": 900
+    },
+    {
+      "name": "Costal cartilage of second rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_chest",
+      "triangles": 900
+    },
+    {
+      "name": "Costal cartilage of seventh rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_chest",
+      "triangles": 900
+    },
+    {
+      "name": "Costal cartilage of seventh rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_chest",
+      "triangles": 900
+    },
+    {
+      "name": "Costal cartilage of sixth rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_chest",
+      "triangles": 900
+    },
+    {
+      "name": "Costal cartilage of sixth rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_chest",
+      "triangles": 900
+    },
+    {
+      "name": "Costal cartilage of tenth rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_spine",
+      "triangles": 900
+    },
+    {
+      "name": "Costal cartilage of tenth rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_spine",
+      "triangles": 900
+    },
+    {
+      "name": "Costal cartilage of third rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_chest",
+      "triangles": 900
+    },
+    {
+      "name": "Costal cartilage of third rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_chest",
+      "triangles": 900
+    },
+    {
+      "name": "Cricoid cartilage",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_neck",
+      "triangles": 468
+    },
+    {
+      "name": "Cuboid bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 450
+    },
+    {
+      "name": "Cuboid bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 450
+    },
+    {
+      "name": "Deep head of flexor pollicis brevis.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_hand_L",
+      "triangles": 550
+    },
+    {
+      "name": "Deep head of flexor pollicis brevis.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_hand_R",
+      "triangles": 550
+    },
+    {
+      "name": "Deep head of pronator teres.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 550
+    },
+    {
+      "name": "Deep head of pronator teres.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 550
+    },
+    {
+      "name": "Deep part of masseter.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Deep part of masseter.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Depressor anguli oris.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Depressor anguli oris.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Depressor labii inferioris.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Depressor labii inferioris.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Depressor septi nasi.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 276
+    },
+    {
+      "name": "Depressor septi nasi.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 276
+    },
+    {
+      "name": "Descending part of trapezius muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Descending part of trapezius muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Descending part of trapezius muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Descending part of trapezius muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Distal phalanx of fifth finger of foot.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 236
+    },
+    {
+      "name": "Distal phalanx of fifth finger of foot.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 236
+    },
+    {
+      "name": "Distal phalanx of fifth finger of hand.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 192
+    },
+    {
+      "name": "Distal phalanx of fifth finger of hand.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 192
+    },
+    {
+      "name": "Distal phalanx of first finger of foot.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 450
+    },
+    {
+      "name": "Distal phalanx of first finger of foot.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 450
+    },
+    {
+      "name": "Distal phalanx of first finger of hand.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 222
+    },
+    {
+      "name": "Distal phalanx of first finger of hand.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 222
+    },
+    {
+      "name": "Distal phalanx of fourth finger of foot.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 278
+    },
+    {
+      "name": "Distal phalanx of fourth finger of foot.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 278
+    },
+    {
+      "name": "Distal phalanx of fourth finger of hand.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 134
+    },
+    {
+      "name": "Distal phalanx of fourth finger of hand.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 134
+    },
+    {
+      "name": "Distal phalanx of second finger of foot.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 236
+    },
+    {
+      "name": "Distal phalanx of second finger of foot.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 236
+    },
+    {
+      "name": "Distal phalanx of second finger of hand.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 250
+    },
+    {
+      "name": "Distal phalanx of second finger of hand.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 250
+    },
+    {
+      "name": "Distal phalanx of third finger of foot.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 318
+    },
+    {
+      "name": "Distal phalanx of third finger of foot.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 318
+    },
+    {
+      "name": "Distal phalanx of third finger of hand.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 192
+    },
+    {
+      "name": "Distal phalanx of third finger of hand.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 192
+    },
+    {
+      "name": "Dorsal interossei muscles of foot.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_foot_L",
+      "triangles": 550
+    },
+    {
+      "name": "Dorsal interossei muscles of foot.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_foot_R",
+      "triangles": 550
+    },
+    {
+      "name": "Dorsal interossei muscles of hand.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_hand_L",
+      "triangles": 550
+    },
+    {
+      "name": "Dorsal interossei muscles of hand.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_hand_R",
+      "triangles": 550
+    },
+    {
+      "name": "Dorsal parts of lateral intertransversarii lumborum muscles.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_spine",
+      "triangles": 550
+    },
+    {
+      "name": "Dorsal parts of lateral intertransversarii lumborum muscles.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_spine",
+      "triangles": 550
+    },
+    {
+      "name": "Eighth rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Eighth rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Eleventh rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_spine",
+      "triangles": 450
+    },
+    {
+      "name": "Eleventh rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_spine",
+      "triangles": 450
+    },
+    {
+      "name": "Ethmoid bone",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_head",
+      "triangles": 679
+    },
+    {
+      "name": "Extensor carpi radialis brevis.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 550
+    },
+    {
+      "name": "Extensor carpi radialis brevis.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 550
+    },
+    {
+      "name": "Extensor carpi radialis longus.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 550
+    },
+    {
+      "name": "Extensor carpi radialis longus.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 550
+    },
+    {
+      "name": "Extensor digiti minimi.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 548
+    },
+    {
+      "name": "Extensor digiti minimi.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 548
+    },
+    {
+      "name": "Extensor digitorum brevis.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_foot_L",
+      "triangles": 550
+    },
+    {
+      "name": "Extensor digitorum brevis.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_foot_R",
+      "triangles": 550
+    },
+    {
+      "name": "Extensor digitorum longus.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_shin_L",
+      "triangles": 549
+    },
+    {
+      "name": "Extensor digitorum longus.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_shin_R",
+      "triangles": 549
+    },
+    {
+      "name": "Extensor digitorum.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 550
+    },
+    {
+      "name": "Extensor digitorum.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 550
+    },
+    {
+      "name": "Extensor hallucis brevis.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_foot_L",
+      "triangles": 550
+    },
+    {
+      "name": "Extensor hallucis brevis.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_foot_R",
+      "triangles": 550
+    },
+    {
+      "name": "Extensor hallucis longus.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_foot_L",
+      "triangles": 550
+    },
+    {
+      "name": "Extensor hallucis longus.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_foot_R",
+      "triangles": 550
+    },
+    {
+      "name": "Extensor indicis.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_hand_L",
+      "triangles": 550
+    },
+    {
+      "name": "Extensor indicis.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_hand_R",
+      "triangles": 550
+    },
+    {
+      "name": "Extensor pollicis brevis.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 550
+    },
+    {
+      "name": "Extensor pollicis brevis.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 550
+    },
+    {
+      "name": "Extensor pollicis longus.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 550
+    },
+    {
+      "name": "Extensor pollicis longus.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 550
+    },
+    {
+      "name": "External abdominal oblique muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "External abdominal oblique muscle.l",
+      "triangles": 2400
+    },
+    {
+      "name": "External abdominal oblique muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "External abdominal oblique muscle.r",
+      "triangles": 2400
+    },
+    {
+      "name": "External intercostal muscles.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_chest",
+      "triangles": 585
+    },
+    {
+      "name": "External intercostal muscles.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_chest",
+      "triangles": 585
+    },
+    {
+      "name": "Femur.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_thigh_L",
+      "triangles": 450
+    },
+    {
+      "name": "Femur.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_thigh_R",
+      "triangles": 450
+    },
+    {
+      "name": "Fibula.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_shin_L",
+      "triangles": 450
+    },
+    {
+      "name": "Fibula.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_shin_R",
+      "triangles": 450
+    },
+    {
+      "name": "Fibularis brevis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_foot_L",
+      "triangles": 550
+    },
+    {
+      "name": "Fibularis brevis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_foot_R",
+      "triangles": 550
+    },
+    {
+      "name": "Fibularis longus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_shin_L",
+      "triangles": 550
+    },
+    {
+      "name": "Fibularis longus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_shin_R",
+      "triangles": 550
+    },
+    {
+      "name": "Fibularis tertius muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_foot_L",
+      "triangles": 550
+    },
+    {
+      "name": "Fibularis tertius muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_foot_R",
+      "triangles": 550
+    },
+    {
+      "name": "Fifth metacarpal bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 458
+    },
+    {
+      "name": "Fifth metacarpal bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 458
+    },
+    {
+      "name": "Fifth metatarsal bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 448
+    },
+    {
+      "name": "Fifth metatarsal bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 448
+    },
+    {
+      "name": "Fifth rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Fifth rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "First metacarpal bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 450
+    },
+    {
+      "name": "First metacarpal bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 450
+    },
+    {
+      "name": "First metatarsal bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 450
+    },
+    {
+      "name": "First metatarsal bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 450
+    },
+    {
+      "name": "First rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "First rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Flexor carpi radialis.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 550
+    },
+    {
+      "name": "Flexor carpi radialis.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 550
+    },
+    {
+      "name": "Flexor digiti minimi of foot.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_foot_L",
+      "triangles": 464
+    },
+    {
+      "name": "Flexor digiti minimi of foot.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_foot_R",
+      "triangles": 464
+    },
+    {
+      "name": "Flexor digiti minimi of hand.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_hand_L",
+      "triangles": 308
+    },
+    {
+      "name": "Flexor digiti minimi of hand.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_hand_R",
+      "triangles": 308
+    },
+    {
+      "name": "Flexor digitorum brevis.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_foot_L",
+      "triangles": 550
+    },
+    {
+      "name": "Flexor digitorum brevis.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_foot_R",
+      "triangles": 550
+    },
+    {
+      "name": "Flexor digitorum longus.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_foot_L",
+      "triangles": 550
+    },
+    {
+      "name": "Flexor digitorum longus.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_foot_R",
+      "triangles": 550
+    },
+    {
+      "name": "Flexor digitorum profundus.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 550
+    },
+    {
+      "name": "Flexor digitorum profundus.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 550
+    },
+    {
+      "name": "Flexor hallucis longus.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_foot_L",
+      "triangles": 550
+    },
+    {
+      "name": "Flexor hallucis longus.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_foot_R",
+      "triangles": 550
+    },
+    {
+      "name": "Flexor pollicis longus.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 550
+    },
+    {
+      "name": "Flexor pollicis longus.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 550
+    },
+    {
+      "name": "Fourth metacarpal bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 450
+    },
+    {
+      "name": "Fourth metacarpal bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 450
+    },
+    {
+      "name": "Fourth metatarsal bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 512
+    },
+    {
+      "name": "Fourth metatarsal bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 512
+    },
+    {
+      "name": "Fourth rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Fourth rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Frontal bone",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Frontalis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Frontalis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Geniohyoid muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 530
+    },
+    {
+      "name": "Geniohyoid muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 530
+    },
+    {
+      "name": "Gluteus maximus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Gluteus maximus muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Gluteus maximus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Gluteus maximus muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Gluteus medius muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Gluteus medius muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Gluteus medius muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Gluteus medius muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Gluteus minimus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_hips",
+      "triangles": 550
+    },
+    {
+      "name": "Gluteus minimus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_hips",
+      "triangles": 550
+    },
+    {
+      "name": "Gracilis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Gracilis muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Gracilis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Gracilis muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Hamate bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 450
+    },
+    {
+      "name": "Hamate bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 450
+    },
+    {
+      "name": "Hip bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hips",
+      "triangles": 472
+    },
+    {
+      "name": "Hip bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hips",
+      "triangles": 472
+    },
+    {
+      "name": "Humeral head of extensor carpi ulnaris.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 550
+    },
+    {
+      "name": "Humeral head of extensor carpi ulnaris.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 550
+    },
+    {
+      "name": "Humeral head of flexor carpi ulnaris.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 550
+    },
+    {
+      "name": "Humeral head of flexor carpi ulnaris.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 550
+    },
+    {
+      "name": "Humero-ulnar head of flexor digitorum superficialis.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 550
+    },
+    {
+      "name": "Humero-ulnar head of flexor digitorum superficialis.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 550
+    },
+    {
+      "name": "Humerus.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_upper_arm_L",
+      "triangles": 450
+    },
+    {
+      "name": "Humerus.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_upper_arm_R",
+      "triangles": 450
+    },
+    {
+      "name": "Hyoid bone",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_head",
+      "triangles": 454
+    },
+    {
+      "name": "Iliacus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_hips",
+      "triangles": 550
+    },
+    {
+      "name": "Iliacus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_hips",
+      "triangles": 550
+    },
+    {
+      "name": "Iliococcygeus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_thigh_L",
+      "triangles": 550
+    },
+    {
+      "name": "Iliococcygeus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_thigh_R",
+      "triangles": 550
+    },
+    {
+      "name": "Iliocostalis colli muscle",
+      "tissue": "muscle",
+      "side": "midline",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Iliocostalis colli muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Iliocostalis lumborum muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_spine",
+      "triangles": 550
+    },
+    {
+      "name": "Iliocostalis lumborum muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_spine",
+      "triangles": 550
+    },
+    {
+      "name": "Iliocostalis thoracis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Iliocostalis thoracis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Iliopectineal arch.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hips",
+      "triangles": 26
+    },
+    {
+      "name": "Iliopectineal arch.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hips",
+      "triangles": 280
+    },
+    {
+      "name": "Inferior gemellus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_thigh_L",
+      "triangles": 550
+    },
+    {
+      "name": "Inferior gemellus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_thigh_R",
+      "triangles": 550
+    },
+    {
+      "name": "Inferior head of lateral pterygoid muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 326
+    },
+    {
+      "name": "Inferior head of lateral pterygoid muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 326
+    },
+    {
+      "name": "Inferior nasal concha bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Inferior nasal concha bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Inferior oblique muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Inferior oblique muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Inferior rectus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Inferior rectus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Infraspinatus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Infraspinatus muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Infraspinatus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Infraspinatus muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Intermediate cuneiform bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 444
+    },
+    {
+      "name": "Intermediate cuneiform bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 444
+    },
+    {
+      "name": "Internal abdominal oblique muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_spine",
+      "triangles": 2399
+    },
+    {
+      "name": "Internal abdominal oblique muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_spine",
+      "triangles": 2399
+    },
+    {
+      "name": "Interspinales colli muscles.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 444
+    },
+    {
+      "name": "Interspinales colli muscles.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 444
+    },
+    {
+      "name": "Interspinales lumborum muscles.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_spine",
+      "triangles": 550
+    },
+    {
+      "name": "Interspinales lumborum muscles.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_spine",
+      "triangles": 550
+    },
+    {
+      "name": "Interspinales thoracis muscles.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_chest",
+      "triangles": 198
+    },
+    {
+      "name": "Interspinales thoracis muscles.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_chest",
+      "triangles": 198
+    },
+    {
+      "name": "Lacrimal bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Lacrimal bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Lateral cuneiform bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 454
+    },
+    {
+      "name": "Lateral cuneiform bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 454
+    },
+    {
+      "name": "Lateral head of flexor hallucis brevis.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_foot_L",
+      "triangles": 550
+    },
+    {
+      "name": "Lateral head of flexor hallucis brevis.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_foot_R",
+      "triangles": 550
+    },
+    {
+      "name": "Lateral head of gastrocnemius.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Lateral head of gastrocnemius.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Lateral head of gastrocnemius.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Lateral head of gastrocnemius.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Lateral head of triceps brachii.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Lateral head of triceps brachii.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Lateral head of triceps brachii.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Lateral head of triceps brachii.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Lateral process of nasal septal cartilage.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 347
+    },
+    {
+      "name": "Lateral process of nasal septal cartilage.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 347
+    },
+    {
+      "name": "Lateral rectus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Lateral rectus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Latissimus dorsi muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Latissimus dorsi muscle.l",
+      "triangles": 2400
+    },
+    {
+      "name": "Latissimus dorsi muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Latissimus dorsi muscle.r",
+      "triangles": 2400
+    },
+    {
+      "name": "Levator anguli oris.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 330
+    },
+    {
+      "name": "Levator anguli oris.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 330
+    },
+    {
+      "name": "Levator labii superioris.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 540
+    },
+    {
+      "name": "Levator labii superioris.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 540
+    },
+    {
+      "name": "Levator nasolabialis.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 172
+    },
+    {
+      "name": "Levator nasolabialis.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 172
+    },
+    {
+      "name": "Levator palpebrae superioris.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 548
+    },
+    {
+      "name": "Levator palpebrae superioris.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 548
+    },
+    {
+      "name": "Levator scapulae.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Levator scapulae.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Levatores breves costarum.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Levatores breves costarum.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Levatores longi costarum.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Levatores longi costarum.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Long head of biceps brachii.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Long head of biceps brachii.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Long head of biceps brachii.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Long head of biceps brachii.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Long head of biceps femoris.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Long head of biceps femoris.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Long head of biceps femoris.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Long head of biceps femoris.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Long head of triceps brachii.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Long head of triceps brachii.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Long head of triceps brachii.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Long head of triceps brachii.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Longissimus capitis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Longissimus capitis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Longissimus colli muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Longissimus colli muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Longissimus thoracis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Longissimus thoracis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Longus capitis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Longus capitis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Longus colli muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Longus colli muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Lower canine.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Lower canine.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Lower first molar tooth.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 452
+    },
+    {
+      "name": "Lower first molar tooth.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 452
+    },
+    {
+      "name": "Lower first premolar.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 454
+    },
+    {
+      "name": "Lower first premolar.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 454
+    },
+    {
+      "name": "Lower lateral incisor.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 452
+    },
+    {
+      "name": "Lower lateral incisor.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 452
+    },
+    {
+      "name": "Lower medial incisor.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Lower medial incisor.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Lower second molar tooth.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 454
+    },
+    {
+      "name": "Lower second molar tooth.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 454
+    },
+    {
+      "name": "Lower second premolar.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Lower second premolar.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Lumbrical muscles of foot.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_foot_L",
+      "triangles": 418
+    },
+    {
+      "name": "Lumbrical muscles of foot.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_foot_R",
+      "triangles": 418
+    },
+    {
+      "name": "Lumbrical muscles of hand.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_hand_L",
+      "triangles": 550
+    },
+    {
+      "name": "Lumbrical muscles of hand.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_hand_R",
+      "triangles": 550
+    },
+    {
+      "name": "Lunate bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 900
+    },
+    {
+      "name": "Lunate bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 900
+    },
+    {
+      "name": "Major alar cartilage.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 344
+    },
+    {
+      "name": "Major alar cartilage.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 344
+    },
+    {
+      "name": "Mandible",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Manubrium of sternum",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Maxilla.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Maxilla.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Medial cuneiform bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 460
+    },
+    {
+      "name": "Medial cuneiform bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 460
+    },
+    {
+      "name": "Medial head of flexor hallucis brevis.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_foot_L",
+      "triangles": 514
+    },
+    {
+      "name": "Medial head of flexor hallucis brevis.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_foot_R",
+      "triangles": 514
+    },
+    {
+      "name": "Medial head of gastrocnemius.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Medial head of gastrocnemius.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Medial head of gastrocnemius.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Medial head of gastrocnemius.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Medial head of triceps brachii.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Medial head of triceps brachii.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Medial head of triceps brachii.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Medial head of triceps brachii.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Medial pterygoid muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 496
+    },
+    {
+      "name": "Medial pterygoid muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 496
+    },
+    {
+      "name": "Medial rectus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Medial rectus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Mentalis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 166
+    },
+    {
+      "name": "Mentalis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 166
+    },
+    {
+      "name": "Middle phalanx of fifth finger of foot.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 216
+    },
+    {
+      "name": "Middle phalanx of fifth finger of foot.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 216
+    },
+    {
+      "name": "Middle phalanx of fifth finger of hand.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 292
+    },
+    {
+      "name": "Middle phalanx of fifth finger of hand.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 292
+    },
+    {
+      "name": "Middle phalanx of fourth finger of foot.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 448
+    },
+    {
+      "name": "Middle phalanx of fourth finger of foot.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 448
+    },
+    {
+      "name": "Middle phalanx of fourth finger of hand.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 446
+    },
+    {
+      "name": "Middle phalanx of fourth finger of hand.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 446
+    },
+    {
+      "name": "Middle phalanx of second finger of foot.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 381
+    },
+    {
+      "name": "Middle phalanx of second finger of foot.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 381
+    },
+    {
+      "name": "Middle phalanx of second finger of hand.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 314
+    },
+    {
+      "name": "Middle phalanx of second finger of hand.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 314
+    },
+    {
+      "name": "Middle phalanx of third finger of foot.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 400
+    },
+    {
+      "name": "Middle phalanx of third finger of foot.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 400
+    },
+    {
+      "name": "Middle phalanx of third finger of hand.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 360
+    },
+    {
+      "name": "Middle phalanx of third finger of hand.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 360
+    },
+    {
+      "name": "Multifidus colli muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Multifidus colli muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Multifidus lumborum muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_spine",
+      "triangles": 550
+    },
+    {
+      "name": "Multifidus lumborum muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_spine",
+      "triangles": 550
+    },
+    {
+      "name": "Multifidus thoracis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Multifidus thoracis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Mylohyoid muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Mylohyoid muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Nasal bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 292
+    },
+    {
+      "name": "Nasal bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 292
+    },
+    {
+      "name": "Nasal septal cartilage",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_head",
+      "triangles": 360
+    },
+    {
+      "name": "Nasalis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Nasalis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Navicular bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 450
+    },
+    {
+      "name": "Navicular bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 450
+    },
+    {
+      "name": "Ninth rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_chest",
+      "triangles": 452
+    },
+    {
+      "name": "Ninth rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_chest",
+      "triangles": 452
+    },
+    {
+      "name": "Oblique head of adductor hallucis.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_foot_L",
+      "triangles": 550
+    },
+    {
+      "name": "Oblique head of adductor hallucis.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_foot_R",
+      "triangles": 550
+    },
+    {
+      "name": "Oblique head of adductor pollicis.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_hand_L",
+      "triangles": 449
+    },
+    {
+      "name": "Oblique head of adductor pollicis.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_hand_R",
+      "triangles": 449
+    },
+    {
+      "name": "Obliquus inferior capitis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 540
+    },
+    {
+      "name": "Obliquus inferior capitis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 540
+    },
+    {
+      "name": "Obliquus superior capitis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Obliquus superior capitis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Obturator externus.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_thigh_L",
+      "triangles": 550
+    },
+    {
+      "name": "Obturator externus.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_thigh_R",
+      "triangles": 550
+    },
+    {
+      "name": "Obturator internus.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_thigh_L",
+      "triangles": 550
+    },
+    {
+      "name": "Obturator internus.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_thigh_R",
+      "triangles": 550
+    },
+    {
+      "name": "Occipital bone",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_head",
+      "triangles": 451
+    },
+    {
+      "name": "Occipitalis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Occipitalis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Omohyoid muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Omohyoid muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Opponens digiti minimi muscle of hand.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_hand_L",
+      "triangles": 420
+    },
+    {
+      "name": "Opponens digiti minimi muscle of hand.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_hand_R",
+      "triangles": 420
+    },
+    {
+      "name": "Opponens pollicis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_hand_L",
+      "triangles": 384
+    },
+    {
+      "name": "Opponens pollicis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_hand_R",
+      "triangles": 384
+    },
+    {
+      "name": "Orbicularis oris muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Orbicularis oris muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Orbital part of orbicularis oculi.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Orbital part of orbicularis oculi.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Palatine bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 448
+    },
+    {
+      "name": "Palatine bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 448
+    },
+    {
+      "name": "Palmar interossei muscles.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_hand_L",
+      "triangles": 174
+    },
+    {
+      "name": "Palmar interossei muscles.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_hand_R",
+      "triangles": 174
+    },
+    {
+      "name": "Palmaris longus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 550
+    },
+    {
+      "name": "Palmaris longus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 550
+    },
+    {
+      "name": "Palpebral part of orbicularis oculi.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Palpebral part of orbicularis oculi.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Parietal bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Parietal bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 454
+    },
+    {
+      "name": "Patella.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_shin_L",
+      "triangles": 276
+    },
+    {
+      "name": "Patella.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_shin_R",
+      "triangles": 276
+    },
+    {
+      "name": "Pectineus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_thigh_L",
+      "triangles": 550
+    },
+    {
+      "name": "Pectineus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_thigh_R",
+      "triangles": 550
+    },
+    {
+      "name": "Pectoralis minor muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Pectoralis minor muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Piriformis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_hips",
+      "triangles": 549
+    },
+    {
+      "name": "Piriformis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_hips",
+      "triangles": 549
+    },
+    {
+      "name": "Pisiform bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 900
+    },
+    {
+      "name": "Pisiform bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 900
+    },
+    {
+      "name": "Plantar interossei muscles.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_foot_L",
+      "triangles": 550
+    },
+    {
+      "name": "Plantar interossei muscles.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_foot_R",
+      "triangles": 550
+    },
+    {
+      "name": "Plantaris muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_shin_L",
+      "triangles": 550
+    },
+    {
+      "name": "Plantaris muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_shin_R",
+      "triangles": 550
+    },
+    {
+      "name": "Platysma.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Platysma.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Popliteus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_shin_L",
+      "triangles": 550
+    },
+    {
+      "name": "Popliteus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_shin_R",
+      "triangles": 550
+    },
+    {
+      "name": "Posterior belly of digastric muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Posterior belly of digastric muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Procerus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 546
+    },
+    {
+      "name": "Procerus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 546
+    },
+    {
+      "name": "Pronator quadratus.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 550
+    },
+    {
+      "name": "Pronator quadratus.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 550
+    },
+    {
+      "name": "Proximal phalanx of fifth finger of foot.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 450
+    },
+    {
+      "name": "Proximal phalanx of fifth finger of foot.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 450
+    },
+    {
+      "name": "Proximal phalanx of fifth finger of hand.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 450
+    },
+    {
+      "name": "Proximal phalanx of fifth finger of hand.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 450
+    },
+    {
+      "name": "Proximal phalanx of first finger of foot.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 462
+    },
+    {
+      "name": "Proximal phalanx of first finger of foot.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 462
+    },
+    {
+      "name": "Proximal phalanx of first finger of hand.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 328
+    },
+    {
+      "name": "Proximal phalanx of first finger of hand.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 328
+    },
+    {
+      "name": "Proximal phalanx of fourth finger of foot.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 450
+    },
+    {
+      "name": "Proximal phalanx of fourth finger of foot.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 450
+    },
+    {
+      "name": "Proximal phalanx of fourth finger of hand.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 368
+    },
+    {
+      "name": "Proximal phalanx of fourth finger of hand.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 368
+    },
+    {
+      "name": "Proximal phalanx of second finger of foot.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 426
+    },
+    {
+      "name": "Proximal phalanx of second finger of foot.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 426
+    },
+    {
+      "name": "Proximal phalanx of second finger of hand.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 414
+    },
+    {
+      "name": "Proximal phalanx of second finger of hand.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 414
+    },
+    {
+      "name": "Proximal phalanx of third finger of foot.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 450
+    },
+    {
+      "name": "Proximal phalanx of third finger of foot.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 450
+    },
+    {
+      "name": "Proximal phalanx of third finger of hand.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 440
+    },
+    {
+      "name": "Proximal phalanx of third finger of hand.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 440
+    },
+    {
+      "name": "Psoas major.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_spine",
+      "triangles": 550
+    },
+    {
+      "name": "Psoas major.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_spine",
+      "triangles": 550
+    },
+    {
+      "name": "Pubococcygeus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_thigh_L",
+      "triangles": 550
+    },
+    {
+      "name": "Pubococcygeus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_thigh_R",
+      "triangles": 550
+    },
+    {
+      "name": "Pyramidalis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_hips",
+      "triangles": 550
+    },
+    {
+      "name": "Pyramidalis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_hips",
+      "triangles": 550
+    },
+    {
+      "name": "Quadratus femoris muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_thigh_L",
+      "triangles": 550
+    },
+    {
+      "name": "Quadratus femoris muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_thigh_R",
+      "triangles": 550
+    },
+    {
+      "name": "Quadratus lumborum muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_spine",
+      "triangles": 550
+    },
+    {
+      "name": "Quadratus lumborum muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_spine",
+      "triangles": 550
+    },
+    {
+      "name": "Quadratus plantae muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_foot_L",
+      "triangles": 550
+    },
+    {
+      "name": "Quadratus plantae muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_foot_R",
+      "triangles": 550
+    },
+    {
+      "name": "Radial head of flexor digitorum superficialis.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 550
+    },
+    {
+      "name": "Radial head of flexor digitorum superficialis.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 550
+    },
+    {
+      "name": "Radius.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_forearm_L",
+      "triangles": 490
+    },
+    {
+      "name": "Radius.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_forearm_R",
+      "triangles": 490
+    },
+    {
+      "name": "Rectus abdominis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Rectus abdominis muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Rectus abdominis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Rectus abdominis muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Rectus anterior capitis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 396
+    },
+    {
+      "name": "Rectus anterior capitis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 396
+    },
+    {
+      "name": "Rectus femoris muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Rectus femoris muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Rectus femoris muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Rectus femoris muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Rectus lateralis capitis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 360
+    },
+    {
+      "name": "Rectus lateralis capitis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 360
+    },
+    {
+      "name": "Rectus posterior major capitis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Rectus posterior major capitis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Rectus posterior minor capitis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 432
+    },
+    {
+      "name": "Rectus posterior minor capitis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 432
+    },
+    {
+      "name": "Rhomboid major muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Rhomboid major muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Rhomboid minor muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Rhomboid minor muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Risorius muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Risorius muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Rotatores.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Rotatores.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Sacrum",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_hips",
+      "triangles": 615
+    },
+    {
+      "name": "Sartorius muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Sartorius muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Sartorius muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Sartorius muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Scalenus anterior muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 549
+    },
+    {
+      "name": "Scalenus anterior muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 549
+    },
+    {
+      "name": "Scalenus medius muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Scalenus medius muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Scalenus posterior muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Scalenus posterior muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Scaphoid bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 390
+    },
+    {
+      "name": "Scaphoid bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 390
+    },
+    {
+      "name": "Scapula.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_clavicle_L",
+      "triangles": 450
+    },
+    {
+      "name": "Scapula.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_clavicle_R",
+      "triangles": 450
+    },
+    {
+      "name": "Scapular spinal part of deltoid muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Scapular spinal part of deltoid muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Scapular spinal part of deltoid muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Scapular spinal part of deltoid muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Second metacarpal bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 450
+    },
+    {
+      "name": "Second metacarpal bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 450
+    },
+    {
+      "name": "Second metatarsal bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 450
+    },
+    {
+      "name": "Second metatarsal bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 450
+    },
+    {
+      "name": "Second rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Second rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Semimembranosus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Semimembranosus muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Semimembranosus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Semimembranosus muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Semispinalis colli muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Semispinalis colli muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Semispinalis thoracis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Semispinalis thoracis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Semitendinosus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Semitendinosus muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Semitendinosus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Semitendinosus muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Serratus anterior muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Serratus anterior muscle.l",
+      "triangles": 1598
+    },
+    {
+      "name": "Serratus anterior muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Serratus anterior muscle.r",
+      "triangles": 1598
+    },
+    {
+      "name": "Serratus posterior inferior muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_spine",
+      "triangles": 550
+    },
+    {
+      "name": "Serratus posterior inferior muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_spine",
+      "triangles": 550
+    },
+    {
+      "name": "Serratus posterior superior muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Serratus posterior superior muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Sesamoid bones of foot.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 290
+    },
+    {
+      "name": "Sesamoid bones of foot.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 290
+    },
+    {
+      "name": "Seventh rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Seventh rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Short head of biceps brachii.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Short head of biceps brachii.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Short head of biceps brachii.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Short head of biceps brachii.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Short head of biceps femoris.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Short head of biceps femoris.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Short head of biceps femoris.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Short head of biceps femoris.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Sixth rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Sixth rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Soleus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Soleus muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Soleus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Soleus muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Sphenoid bone",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Spinalis capitis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Spinalis capitis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Spinalis colli muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Spinalis colli muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Spinalis thoracis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Spinalis thoracis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Splenius capitis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Splenius capitis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Splenius colli muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Splenius colli muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Sternocleidomastoid muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Sternocleidomastoid muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Sternocleidomastoid muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Sternocleidomastoid muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Sternocostal head of pectoralis major muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Sternocostal head of pectoralis major muscle.l",
+      "triangles": 1602
+    },
+    {
+      "name": "Sternocostal head of pectoralis major muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Sternocostal head of pectoralis major muscle.r",
+      "triangles": 1602
+    },
+    {
+      "name": "Sternohyoid muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Sternohyoid muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_neck",
+      "triangles": 550
+    },
+    {
+      "name": "Stylohyoid muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Stylohyoid muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Subclavius muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Subclavius muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_chest",
+      "triangles": 550
+    },
+    {
+      "name": "Subscapularis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_clavicle_L",
+      "triangles": 550
+    },
+    {
+      "name": "Subscapularis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_clavicle_R",
+      "triangles": 550
+    },
+    {
+      "name": "Superficial head of flexor pollicis brevis.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_hand_L",
+      "triangles": 276
+    },
+    {
+      "name": "Superficial head of flexor pollicis brevis.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_hand_R",
+      "triangles": 276
+    },
+    {
+      "name": "Superficial head of pronator teres.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 550
+    },
+    {
+      "name": "Superficial head of pronator teres.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 550
+    },
+    {
+      "name": "Superficial part of masseter.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Superficial part of masseter.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Superficial transverse metacarpal ligament.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 192
+    },
+    {
+      "name": "Superficial transverse metacarpal ligament.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 192
+    },
+    {
+      "name": "Superficial transverse metatarsal ligament.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 99
+    },
+    {
+      "name": "Superficial transverse metatarsal ligament.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 99
+    },
+    {
+      "name": "Superior gemellus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_thigh_L",
+      "triangles": 404
+    },
+    {
+      "name": "Superior gemellus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_thigh_R",
+      "triangles": 404
+    },
+    {
+      "name": "Superior head of lateral pterygoid muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 226
+    },
+    {
+      "name": "Superior head of lateral pterygoid muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 226
+    },
+    {
+      "name": "Superior oblique muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Superior oblique muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Superior rectus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Superior rectus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Supinator.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 550
+    },
+    {
+      "name": "Supinator.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 550
+    },
+    {
+      "name": "Supraspinatus muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Supraspinatus muscle.l",
+      "triangles": 1430
+    },
+    {
+      "name": "Supraspinatus muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Supraspinatus muscle.r",
+      "triangles": 1430
+    },
+    {
+      "name": "Talus.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 458
+    },
+    {
+      "name": "Talus.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 458
+    },
+    {
+      "name": "Temporal bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Temporal bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Temporalis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Temporalis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Temporoparietalis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Temporoparietalis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Tenth rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_spine",
+      "triangles": 450
+    },
+    {
+      "name": "Tenth rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_spine",
+      "triangles": 450
+    },
+    {
+      "name": "Teres major muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Teres major muscle.l",
+      "triangles": 1154
+    },
+    {
+      "name": "Teres major muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Teres major muscle.r",
+      "triangles": 1154
+    },
+    {
+      "name": "Teres minor muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Teres minor muscle.l",
+      "triangles": 1522
+    },
+    {
+      "name": "Teres minor muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Teres minor muscle.r",
+      "triangles": 1522
+    },
+    {
+      "name": "Third metacarpal bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 450
+    },
+    {
+      "name": "Third metacarpal bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 450
+    },
+    {
+      "name": "Third metatarsal bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_foot_L",
+      "triangles": 454
+    },
+    {
+      "name": "Third metatarsal bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_foot_R",
+      "triangles": 454
+    },
+    {
+      "name": "Third rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Third rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Tibia.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_shin_L",
+      "triangles": 464
+    },
+    {
+      "name": "Tibia.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_shin_R",
+      "triangles": 464
+    },
+    {
+      "name": "Tibialis anterior muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Tibialis anterior muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Tibialis anterior muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Tibialis anterior muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Tibialis posterior muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_foot_L",
+      "triangles": 550
+    },
+    {
+      "name": "Tibialis posterior muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_foot_R",
+      "triangles": 550
+    },
+    {
+      "name": "Transverse head of adductor hallucis.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_foot_L",
+      "triangles": 366
+    },
+    {
+      "name": "Transverse head of adductor hallucis.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_foot_R",
+      "triangles": 366
+    },
+    {
+      "name": "Transverse head of adductor pollicis.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_hand_L",
+      "triangles": 550
+    },
+    {
+      "name": "Transverse head of adductor pollicis.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_hand_R",
+      "triangles": 550
+    },
+    {
+      "name": "Transverse part of trapezius muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Transverse part of trapezius muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Transverse part of trapezius muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Transverse part of trapezius muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Transversus abdominis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_spine",
+      "triangles": 550
+    },
+    {
+      "name": "Transversus abdominis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_spine",
+      "triangles": 550
+    },
+    {
+      "name": "Trapezium bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 450
+    },
+    {
+      "name": "Trapezium bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 450
+    },
+    {
+      "name": "Trapezoid bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 364
+    },
+    {
+      "name": "Trapezoid bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 364
+    },
+    {
+      "name": "Triquetrum bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_hand_L",
+      "triangles": 176
+    },
+    {
+      "name": "Triquetrum bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_hand_R",
+      "triangles": 176
+    },
+    {
+      "name": "Twelfth rib.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_spine",
+      "triangles": 450
+    },
+    {
+      "name": "Twelfth rib.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_spine",
+      "triangles": 450
+    },
+    {
+      "name": "Ulna.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_forearm_L",
+      "triangles": 464
+    },
+    {
+      "name": "Ulna.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_forearm_R",
+      "triangles": 464
+    },
+    {
+      "name": "Ulnar head of extensor carpi ulnaris.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 550
+    },
+    {
+      "name": "Ulnar head of extensor carpi ulnaris.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 550
+    },
+    {
+      "name": "Ulnar head of flexor carpi ulnaris.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_forearm_L",
+      "triangles": 550
+    },
+    {
+      "name": "Ulnar head of flexor carpi ulnaris.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_forearm_R",
+      "triangles": 550
+    },
+    {
+      "name": "Upper canine.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 460
+    },
+    {
+      "name": "Upper canine.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 460
+    },
+    {
+      "name": "Upper first molar tooth.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Upper first molar tooth.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Upper first premolar.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 458
+    },
+    {
+      "name": "Upper first premolar.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 458
+    },
+    {
+      "name": "Upper lateral incisor.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 462
+    },
+    {
+      "name": "Upper lateral incisor.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 462
+    },
+    {
+      "name": "Upper medial incisor.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Upper medial incisor.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Upper second molar tooth.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Upper second molar tooth.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Upper second premolar.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 462
+    },
+    {
+      "name": "Upper second premolar.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 462
+    },
+    {
+      "name": "Vastus intermedius muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Vastus intermedius muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Vastus intermedius muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Vastus intermedius muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Vastus lateralis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Vastus lateralis muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Vastus lateralis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Vastus lateralis muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Vastus medialis muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Vastus medialis muscle.l",
+      "triangles": 1600
+    },
+    {
+      "name": "Vastus medialis muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Vastus medialis muscle.r",
+      "triangles": 1600
+    },
+    {
+      "name": "Ventral parts of lateral intertransversarii lumborum muscles.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_spine",
+      "triangles": 550
+    },
+    {
+      "name": "Ventral parts of lateral intertransversarii lumborum muscles.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_spine",
+      "triangles": 550
+    },
+    {
+      "name": "Vertebra C3",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_head",
+      "triangles": 462
+    },
+    {
+      "name": "Vertebra C4",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_neck",
+      "triangles": 450
+    },
+    {
+      "name": "Vertebra C5",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_neck",
+      "triangles": 464
+    },
+    {
+      "name": "Vertebra C6",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_neck",
+      "triangles": 466
+    },
+    {
+      "name": "Vertebra C7",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_neck",
+      "triangles": 464
+    },
+    {
+      "name": "Vertebra L1",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_spine",
+      "triangles": 464
+    },
+    {
+      "name": "Vertebra L2",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_spine",
+      "triangles": 470
+    },
+    {
+      "name": "Vertebra L3",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_spine",
+      "triangles": 464
+    },
+    {
+      "name": "Vertebra L4",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_hips",
+      "triangles": 462
+    },
+    {
+      "name": "Vertebra L5",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_hips",
+      "triangles": 462
+    },
+    {
+      "name": "Vertebra T1",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_neck",
+      "triangles": 450
+    },
+    {
+      "name": "Vertebra T10",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_chest",
+      "triangles": 466
+    },
+    {
+      "name": "Vertebra T11",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_spine",
+      "triangles": 454
+    },
+    {
+      "name": "Vertebra T12",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_spine",
+      "triangles": 470
+    },
+    {
+      "name": "Vertebra T2",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_chest",
+      "triangles": 460
+    },
+    {
+      "name": "Vertebra T3",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Vertebra T4",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Vertebra T5",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Vertebra T6",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Vertebra T7",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_chest",
+      "triangles": 474
+    },
+    {
+      "name": "Vertebra T8",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_chest",
+      "triangles": 457
+    },
+    {
+      "name": "Vertebra T9",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Vomer",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_head",
+      "triangles": 486
+    },
+    {
+      "name": "Xiphoid process",
+      "tissue": "bone",
+      "side": "midline",
+      "node": "Skeleton_chest",
+      "triangles": 450
+    },
+    {
+      "name": "Zygomatic bone.l",
+      "tissue": "bone",
+      "side": "L",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Zygomatic bone.r",
+      "tissue": "bone",
+      "side": "R",
+      "node": "Skeleton_head",
+      "triangles": 450
+    },
+    {
+      "name": "Zygomaticus major muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Zygomaticus major muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 550
+    },
+    {
+      "name": "Zygomaticus minor muscle.l",
+      "tissue": "muscle",
+      "side": "L",
+      "node": "Other muscles_head",
+      "triangles": 432
+    },
+    {
+      "name": "Zygomaticus minor muscle.r",
+      "tissue": "muscle",
+      "side": "R",
+      "node": "Other muscles_head",
+      "triangles": 432
+    }
+  ]
+}

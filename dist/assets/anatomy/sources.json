@@ -1,0 +1,44 @@
+{
+  "title": "Cant Pin Me anatomical model",
+  "asset": "anatomy.glb",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution": [
+    "BodyParts3D - The Database Center for Life Science - CC-BY-SA 2.1 Japan",
+    "Z-Anatomy - The open source atlas of anatomy - CC-BY-SA 4.0"
+  ],
+  "authors": [
+    "Kousaku Okubo and DBCLS, original BodyParts3D geometry",
+    "Gauthier Kervyn, Z-Anatomy design, 3D and anatomy",
+    "Lluis Vinent, Z-Anatomy FBX distribution"
+  ],
+  "sources": [
+    {
+      "file": "MuscularSystem100.fbx",
+      "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/MuscularSystem100.fbx",
+      "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "sha256": "4c19df534d5d84aabbce08604306aa0485b43e8a2483c72a95b569e1dfea2279",
+      "bytes": 37343180
+    },
+    {
+      "file": "SkeletalSystem100.fbx",
+      "url": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/FBX/SkeletalSystem100.fbx",
+      "commit": "6c7f9016bd5899ac8edafd31b9900c151df42ed6",
+      "sha256": "294a649765cd060a62a4095da52b9c8ef2d97769aa447e196448aa5f7d596dea",
+      "bytes": 41339660
+    }
+  ],
+  "modifications": "Muscle and skeletal subset, geometry decimation, grouped minor structures, neutral materials, and a simplified joint rig with manually defined skin weights. Original anatomical geometry retained. Exercise animation is illustrative; tissue deformation is not a biomechanical simulation.",
+  "rigConstruction": "scripts/build-anatomy.py",
+  "sourceModelUrl": "https://github.com/LluisV/Z-Anatomy/tree/PC-Version/Resources/Models",
+  "sourceLicenseUrl": "https://raw.githubusercontent.com/LluisV/Z-Anatomy/6c7f9016bd5899ac8edafd31b9900c151df42ed6/Resources/Models/License.txt",
+  "noEndorsement": true,
+  "export": {
+    "bytes": 12406728,
+    "sha256": "4356f47cd9285da7671e59b71b873a182dbc3e117a4c98f5c76d4362c4e66b11",
+    "triangles": 434002,
+    "meshCount": 124,
+    "muscleParts": 416,
+    "jointCount": 19
+  }
+}
