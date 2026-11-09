@@ -2,7 +2,7 @@
 
 A browser workout planner with routine editing, workout history, exercise search, and 3D movement demonstrations. The application connects completed sets to muscle-group summaries and keeps workout records in browser storage.
 
-[Engineering notes](ENGINEERING.md) explain the mechanisms and tradeoffs. When does a planned set become a durable workout, and what can muscle summaries actually infer from it?
+[Engineering notes](ENGINEERING.md) trace completed sets, durable workout records, and muscle-summary limits.
 
 [Product portfolio](https://github.com/hxssank/recruiter-portfolio)
 
@@ -43,7 +43,7 @@ The application stores records in the browser used to open it. Export a backup b
 
 ## Validation and limits
 
-All 71 Node tests passed on November 9, 2026 against this source snapshot, using the existing local Three.js dependency. Tests cover the exercise catalog, storage validation, timing, workout history, muscle summaries, and movement constraints.
+All 71 Node tests passed on November 9, 2026 after a clean `npm ci` with Node 24.22.0. Tests cover the exercise catalog, storage validation, timing, workout history, muscle summaries, and movement constraints.
 
 The animations illustrate movement. Pose tests do not establish clinical accuracy, tissue behavior, or exercise safety. This snapshot has no account service or cloud sync, and the GitHub preparation did not include a fresh browser walkthrough.
 
